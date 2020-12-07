@@ -1,0 +1,81 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main section#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    margin: 4rem;
+    min-width: 300px;
+    max-width: 700px;
+}
+
+main section#form h1 {
+    margin-bottom: 1rem;
+}
+
+main section#form input {
+    margin: .1rem 0 1rem 0;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgb(175, 172, 172);
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+main section#form label {
+    font-style: italic;
+}
+
+
+main section#form input#salvar{
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    width: 100px;
+    border: none;
+    height: 35px;
+    background-color: #1976d2;
+    transition: .2s;
+}
+
+main section#form input#salvar:hover{
+    background-color: #328de7;
+}
+
+main table thead tr th{
+    background-color: #333;
+    color: #fff;
+    padding: .7rem 2rem;
+}
+
+main table tbody tr td{
+    padding: .7rem;
+    word-wrap: break-word;
+}
+
+main table{
+    margin: 0 auto 2rem auto;
+}
+
+main table tbody tr:nth-child(2n){
+    background-color: rgba(230, 216, 216, 0.2);
+}
+
+main #resultTable{
+    color: #097712;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
